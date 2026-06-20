@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " npx playwright test",
-    "test1": "npx playwright test --grep "login sauce demo" --project="chromium" --headed",
+    "test": "npx playwright test",
+    "test1": "npx playwright test --grep \"login sauce demo\" --project=\"chromium\" --headed",
     "test2": "npx playwright test ../tests/Training.spec.ts",
-    "showReport" : "npx playwright show-report"
+    "showReport": "npx playwright show-report"
   },
   "repository": {
     "type": "git",
