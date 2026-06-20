@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
-    "test1": "playwright test --grep \"login sauce demo\" --project=chromium --headed",
-    "test2": "playwright test --grep \"login sauce demo\" --project=chromium",
+    "test": " npx playwright test",
+    "test1": "npx playwright test --grep "login sauce demo" --project="chromium" --headed",
+    "test2": "npx playwright test ../tests/Training.spec.ts",
     "showReport" : "npx playwright show-report"
   },
   "repository": {
